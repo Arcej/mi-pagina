@@ -58,6 +58,40 @@ un documento de typo HTML5 -->
 			<li>Codigo sin documentacion</li>
 		</ul>
 	</section>
+	<!-- Creamos una forma -->
+	<form action="">
+		<!-- Crea un grupo de inputs-->
+		<fieldset>
+			<!-- Titulo de el grupo de inputs -->
+			<legend>Datos de el Usuario</legend>
+			<!-- Div que contiene controles de Input de Nombre -->
+			<div>
+				<!-- Etiqueta que describe la funcion de el input con ID de "nombre" para el usuario -->
+				<label for="nombre">Nombre:</label>
+				<!-- Input de tipo nombre -->
+				<input id="nombre" name="nombre" type="text" placeholder="tu nombre...">
+			</div>
+		<!-- Div que contiene controles de Input de Correo -->
+			<div>
+				<!-- Etiqueta que describe la funcion de el input con ID de "email" para el usuario -->
+				<label for="email">Correo:</label>
+				<!-- Input de tipo nombre -->
+				<input id="email" name="email" type="email" placeholder="tu correo...">
+			</div>
+		</fieldset>
+		<!-- Input de opcion multiple -->
+		<select name="tipo de mensaje" id="">
+			<!-- Opciones -->
+			<option value="pregunta">Pregunta</option>
+			<option value="solicitud">Solicitud</option>
+		</select>
+		<br>
+		<!-- Input de Mensaje de multiples lineas -->
+		<textarea name="message" id="" cols="30" rows="10" placeholder="tu mensaje..."></textarea>
+		<br>
+		<!-- Boton de Aceptar -->
+		<input type="submit" value="Mandar">
+	</form>
 	<!-- Pie de pagina -->
 	<footer>
 		<!-- Liga a su pagina de github -->
