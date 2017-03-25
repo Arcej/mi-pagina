@@ -1,0 +1,11 @@
+.externa {
+	color: orange;
+}
+
+.mi-div p {
+	color: cyan;
+}
+
+.mi-div > p {
+	color: purple;
+}
